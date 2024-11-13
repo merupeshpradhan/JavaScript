@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom part-3</title>
+</head>
+<body>
+    
+    <!-- Normal HTML-->
+    <!-- (click,dbclick,mouseenter) -->
+     <!-- <h1>Rupesh Pradhan</h1>
+     <p id="JS"></p>
+    <script>
+        // document.addEventListener("click",hello);
+        // document.addEventListener("dblclick",hello);
+        document.addEventListener("mouseenter",hello);
+        function hello() {
+            document.getElementById("JS").innerText = "Hello Bacho";
+        }
+    </script> -->
+
+
+    <!-- onclick,ondbclick -->
+    <button onclick="key()" id="js">Submit</button>
+    <script>
+        function key() {
+            document.getElementById("js").innerText = "Namaste"
+            document.getElementById("js").style.color = "red"
+            document.getElementById("js").style.backgroundColor = "black"
+            document.getElementById("js").style.padding = "16px"
+            document.getElementById("js").style.border = "2px solid yellow"
+        }
+    </script>
+</body>
+</html>
