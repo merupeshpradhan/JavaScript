@@ -59,7 +59,8 @@
 const myNumes = [2,3,4,5];
 
 function oneMoreHello() {
-    console.log("Hello Rupesh !");
+    // console.log("Hello Rupesh !");
+    console.log("Hello Rupesh !",Math.random());
 }
 // setInterval(oneMoreHello,1000)
 setTimeout(oneMoreHello,2000)
